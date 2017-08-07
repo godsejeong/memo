@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.wark.memo.memo"
+    android:orientation="vertical"
+    android:weightSum="10"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.99"
+            android:hint="입력하세요"
+            android:textColorHint="#c6c6c6" />
+
+        <Button
+            android:id="@+id/enter"
+            android:layout_width="73dp"
+            android:layout_height="match_parent"
+            android:text="입력" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_weight="9"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+
+        >
+    </ListView>
+        </LinearLayout>

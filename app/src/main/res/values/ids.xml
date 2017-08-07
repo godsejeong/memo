@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="Lv" type="id" />
+    <item name="B" type="id" />
+    <item name="It" type="id" />
+    <item name="Et" type="id" />
+</resources>
